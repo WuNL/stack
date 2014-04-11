@@ -1,0 +1,2 @@
+ADD_EXECUTABLE(stack ${SRC_LIST})
+

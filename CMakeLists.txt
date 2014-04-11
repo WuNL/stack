@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.8)
+PROJECT (STACK)
+INCLUDE_DIRECTORIES(
+    include
+    )
+SET(SRC_LIST main.cpp stack.cpp)
+ADD_SUBDIRECTORY(src bin)
+SET(STACK_SOURCE_DIR src)
+MESSAGE(STATUS "This is BINARY dir " ${STACK_BINARY_DIR})
+MESSAGE(STATUS "This is SOURCE dir " ${STACK_SOURCE_DIR})
+
