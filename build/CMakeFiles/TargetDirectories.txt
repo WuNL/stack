@@ -1,1 +1,0 @@
-/home/wnl/shellCode/stack/build/bin/CMakeFiles/stack.dir
